@@ -1,0 +1,183 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', '-g', 'devkit' ]
+2 info using npm@2.5.1
+3 info using node@v0.12.0
+4 silly cache add args [ 'devkit', null ]
+5 verbose cache add spec devkit
+6 silly cache add parsed spec { raw: 'devkit',
+6 silly cache add   scope: null,
+6 silly cache add   name: 'devkit',
+6 silly cache add   rawSpec: '',
+6 silly cache add   spec: '*',
+6 silly cache add   type: 'range' }
+7 verbose addNamed devkit@*
+8 silly addNamed semver.valid null
+9 silly addNamed semver.validRange *
+10 silly addNameRange { name: 'devkit', range: '*', hasData: false }
+11 silly mapToRegistry name devkit
+12 silly mapToRegistry using default registry
+13 silly mapToRegistry registry https://registry.npmjs.org/
+14 silly mapToRegistry uri https://registry.npmjs.org/devkit
+15 verbose addNameRange registry:https://registry.npmjs.org/devkit not in flight; fetching
+16 verbose request uri https://registry.npmjs.org/devkit
+17 verbose request no auth needed
+18 info attempt registry request try #1 at 5:51:18 PM
+19 verbose request id 5bc7fbfa2099e996
+20 http request GET https://registry.npmjs.org/devkit
+21 http 200 https://registry.npmjs.org/devkit
+22 silly get cb [ 200,
+22 silly get   { date: 'Thu, 26 Mar 2015 22:51:19 GMT',
+22 silly get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+22 silly get     etag: '"8EXF7TR6UFH9OTTG4OD8MOI5U"',
+22 silly get     'content-type': 'application/json',
+22 silly get     'cache-control': 'max-age=60',
+22 silly get     'content-length': '29814',
+22 silly get     'accept-ranges': 'bytes',
+22 silly get     via: '1.1 varnish',
+22 silly get     age: '0',
+22 silly get     'x-served-by': 'cache-dfw1826-DFW',
+22 silly get     'x-cache': 'MISS',
+22 silly get     'x-cache-hits': '0',
+22 silly get     'x-timer': 'S1427410278.920900,VS0,VE89',
+22 silly get     vary: 'Accept',
+22 silly get     'keep-alive': 'timeout=10, max=50',
+22 silly get     connection: 'Keep-Alive' } ]
+23 verbose get saving devkit to /Users/Toph/.npm/registry.npmjs.org/devkit/.cache.json
+24 verbose getCacheStat cache creation not in flight; initializing
+25 silly addNameRange number 2 { name: 'devkit', range: '*', hasData: true }
+26 silly addNameRange versions [ 'devkit',
+26 silly addNameRange   [ '2.0.0-beta',
+26 silly addNameRange     '2.0.0-beta.2',
+26 silly addNameRange     '2.0.0-beta.3',
+26 silly addNameRange     '2.0.0-beta.4',
+26 silly addNameRange     '2.0.0-beta.5',
+26 silly addNameRange     '2.0.0-beta.6',
+26 silly addNameRange     '2.0.0-beta.7',
+26 silly addNameRange     '2.0.0-beta.8',
+26 silly addNameRange     '2.0.0-beta.9',
+26 silly addNameRange     '2.0.0-beta.10',
+26 silly addNameRange     '2.0.0-beta.11',
+26 silly addNameRange     '2.0.0-beta.12',
+26 silly addNameRange     '2.0.0',
+26 silly addNameRange     '2.1.0',
+26 silly addNameRange     '2.1.1' ] ]
+27 verbose addNamed devkit@2.1.1
+28 silly addNamed semver.valid 2.1.1
+29 silly addNamed semver.validRange 2.1.1
+30 silly mapToRegistry name devkit
+31 silly mapToRegistry using default registry
+32 silly mapToRegistry registry https://registry.npmjs.org/
+33 silly mapToRegistry uri https://registry.npmjs.org/devkit
+34 verbose addRemoteTarball https://registry.npmjs.org/devkit/-/devkit-2.1.1.tgz not in flight; adding
+35 verbose addRemoteTarball [ 'https://registry.npmjs.org/devkit/-/devkit-2.1.1.tgz',
+35 verbose addRemoteTarball   'c8e41195695ca23d5a1f1339105b1509bc71668b' ]
+36 info retry fetch attempt 1 at 5:51:19 PM
+37 info attempt registry request try #1 at 5:51:19 PM
+38 http fetch GET https://registry.npmjs.org/devkit/-/devkit-2.1.1.tgz
+39 http fetch 200 https://registry.npmjs.org/devkit/-/devkit-2.1.1.tgz
+40 silly fetchAndShaCheck shasum c8e41195695ca23d5a1f1339105b1509bc71668b
+41 verbose addTmpTarball /var/folders/k0/xp2kf60j311b1ngg0d_wbhwc0000gn/T/npm-41292-da53045f/registry.npmjs.org/devkit/-/devkit-2.1.1.tgz not in flight; adding
+42 verbose addTmpTarball already have metadata; skipping unpack for devkit@2.1.1
+43 silly cache afterAdd devkit@2.1.1
+44 verbose afterAdd /Users/Toph/.npm/devkit/2.1.1/package/package.json not in flight; writing
+45 verbose afterAdd /Users/Toph/.npm/devkit/2.1.1/package/package.json written
+46 silly install resolved [ { author: { name: 'Game Closure' },
+46 silly install resolved     name: 'devkit',
+46 silly install resolved     keywords: [ 'HTML 5 game sdk platform mobile browser javascript ios android' ],
+46 silly install resolved     description: 'HTML 5 game platform for browser and mobile',
+46 silly install resolved     version: '2.1.1',
+46 silly install resolved     homepage: 'http://github.com/gameclosure/',
+46 silly install resolved     repository: { url: 'https://github.com/gameclosure/devkit.git' },
+46 silly install resolved     bin: { devkit: './src/devkit.js' },
+46 silly install resolved     dependencies:
+46 silly install resolved      { bluebird: '^2.3.6',
+46 silly install resolved        'body-parser': '1.x',
+46 silly install resolved        'cli-color': '0.2.3',
+46 silly install resolved        express: '4.x',
+46 silly install resolved        ff: '0.2.0',
+46 silly install resolved        filesize: '*',
+46 silly install resolved        jsio: '2.0.1',
+46 silly install resolved        lockfile: '^1.0.0',
+46 silly install resolved        mime: '1.2.11',
+46 silly install resolved        mixpanel: '0.0.18',
+46 silly install resolved        mkdirp: '0.5.0',
+46 silly install resolved        ncp: 'https://github.com/gameclosure/ncp/archive/v2.0.0.tar.gz',
+46 silly install resolved        nib: '1.x',
+46 silly install resolved        optimist: '0.6.1',
+46 silly install resolved        open: '0.0.5',
+46 silly install resolved        'path-extra': '^0.3.0',
+46 silly install resolved        printf: '0.2.0',
+46 silly install resolved        request: '~2.10.0',
+46 silly install resolved        rimraf: '^2.2.8',
+46 silly install resolved        semver: '^3.0.1',
+46 silly install resolved        send: '^0.8.1',
+46 silly install resolved        'socket.io': '^1.0.6',
+46 silly install resolved        squill: '0.0.2',
+46 silly install resolved        stylus: '0.49.3',
+46 silly install resolved        'uglify-js': '1.3.x' },
+46 silly install resolved     main: 'src/devkit.js',
+46 silly install resolved     scripts:
+46 silly install resolved      { postinstall: 'sh scripts/postinstall.sh',
+46 silly install resolved        test: 'mocha --reporter spec --recursive -C ./tests' },
+46 silly install resolved     devDependencies: { 'express-debug': '^1.1.0', mocha: '^2.0.1' },
+46 silly install resolved     gitHead: 'ffbf0d7e4c395d3ee10f3283eb556afe506f7636',
+46 silly install resolved     bugs: { url: 'https://github.com/gameclosure/devkit/issues' },
+46 silly install resolved     _id: 'devkit@2.1.1',
+46 silly install resolved     _shasum: 'c8e41195695ca23d5a1f1339105b1509bc71668b',
+46 silly install resolved     _from: 'devkit@*',
+46 silly install resolved     _npmVersion: '2.3.0',
+46 silly install resolved     _nodeVersion: '1.0.4',
+46 silly install resolved     _npmUser: { name: 'jwilm', email: 'jdwilm@gmail.com' },
+46 silly install resolved     maintainers: [ [Object], [Object], [Object] ],
+46 silly install resolved     dist:
+46 silly install resolved      { shasum: 'c8e41195695ca23d5a1f1339105b1509bc71668b',
+46 silly install resolved        tarball: 'http://registry.npmjs.org/devkit/-/devkit-2.1.1.tgz' },
+46 silly install resolved     directories: {},
+46 silly install resolved     _resolved: 'https://registry.npmjs.org/devkit/-/devkit-2.1.1.tgz' } ]
+47 info install devkit@2.1.1 into /usr/local/lib
+48 info installOne devkit@2.1.1
+49 verbose installOne of devkit to /usr/local/lib not in flight; installing
+50 verbose lock using /Users/Toph/.npm/_locks/devkit-e2cb483c82e35c80.lock for /usr/local/lib/node_modules/devkit
+51 silly install write writing devkit 2.1.1 to /usr/local/lib/node_modules/devkit
+52 silly cache addNamed cb devkit@2.1.1
+53 verbose unbuild lib/node_modules/devkit
+54 verbose gentlyRm vacuuming /usr/local/lib/node_modules/devkit
+55 verbose tar unpack /Users/Toph/.npm/devkit/2.1.1/package.tgz
+56 verbose tar unpacking to /usr/local/lib/node_modules/devkit
+57 verbose gentlyRm vacuuming /usr/local/lib/node_modules/devkit
+58 silly gunzTarPerm modes [ '755', '644' ]
+59 error tar.unpack untar error /Users/Toph/.npm/devkit/2.1.1/package.tgz
+60 verbose unlock done using /Users/Toph/.npm/_locks/devkit-e2cb483c82e35c80.lock for /usr/local/lib/node_modules/devkit
+61 verbose fstream_path /usr/local/lib/node_modules/devkit
+62 verbose fstream_type Directory
+63 verbose fstream_class DirWriter
+64 verbose stack Error: EACCES, mkdir '/usr/local/lib/node_modules/devkit'
+64 verbose stack     at Error (native)
+65 verbose fstream_stack /usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23
+65 verbose fstream_stack /usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53
+65 verbose fstream_stack FSReqWrap.oncomplete (fs.js:99:15)
+66 verbose cwd /Users/Toph/projects/routes_controller_exercise
+67 error Darwin 14.1.0
+68 error argv "node" "/usr/local/bin/npm" "install" "-g" "devkit"
+69 error node v0.12.0
+70 error npm  v2.5.1
+71 error path /usr/local/lib/node_modules/devkit
+72 error code EACCES
+73 error errno -13
+74 error Error: EACCES, mkdir '/usr/local/lib/node_modules/devkit'
+74 error     at Error (native)
+74 error  { [Error: EACCES, mkdir '/usr/local/lib/node_modules/devkit']
+74 error   errno: -13,
+74 error   code: 'EACCES',
+74 error   path: '/usr/local/lib/node_modules/devkit',
+74 error   fstream_type: 'Directory',
+74 error   fstream_path: '/usr/local/lib/node_modules/devkit',
+74 error   fstream_class: 'DirWriter',
+74 error   fstream_stack:
+74 error    [ '/usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23',
+74 error      '/usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53',
+74 error      'FSReqWrap.oncomplete (fs.js:99:15)' ] }
+75 error Please try running this command again as root/Administrator.
+76 verbose exit [ -13, true ]
+77 verbose unbuild lib/node_modules/devkit
+78 verbose gentlyRm vacuuming /usr/local/lib/node_modules/devkit
